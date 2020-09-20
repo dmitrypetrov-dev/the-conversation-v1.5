@@ -1170,6 +1170,30 @@ input, textarea {
 
 @media screen and (max-width: 1366px) {
 
+    .solutions {
+        padding: 112px 0 0 143px;
+        margin: 0 auto 124px auto;
+        height: 722px;
+    }
+
+    .solutions__title {
+        font-size: 43px;
+        line-height: 77px;
+        margin-bottom: 53px;
+    }
+
+    .solutions__block {
+        margin-bottom: 23px;
+    }
+
+    .solutions__number {
+        font-size: 38px;
+    }
+
+    .solutions__text {
+        font-size: 24px;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -1367,6 +1391,10 @@ input, textarea {
 }
 
 @media screen and (max-width: 1366px) {
+
+    .on-the-go {
+        margin-bottom: 351px;
+    }
 
     .on-the-go__wrapper {
         max-width: 1102px;
@@ -1623,16 +1651,16 @@ input, textarea {
 @media screen and (max-width: 1366px) {
 
     .production {
-        margin-bottom: 292px;
+        margin-bottom: 386px;
+    }
+
+    .production::before {
+        height: 854px;
+        top: -206px;
     }
 
     .production__wrapper {
         padding-right: 94px;
-    }
-
-    .production::before {
-        top: -325px;
-        background-position: 0 28%;
     }
 
     .production__right {
