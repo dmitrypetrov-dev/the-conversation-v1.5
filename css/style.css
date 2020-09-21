@@ -645,6 +645,52 @@ input, textarea {
     color: #7CC5C9;
 }
 
+.intro-icon-1 {
+    position: absolute;
+    width: 25px;
+    height: 30px;
+    bottom: 27.3%;
+    left: 58.4%;
+    background: url(../img/intro-icon-1.png) -3px 0 no-repeat;
+}
+
+.intro-icon-2 {
+    position: absolute;
+    width: 35px;
+    height: 40px;
+    bottom: 21.5%;
+    left: 44.25%;
+    background: url(../img/intro-icon-2.png) -2px 0 no-repeat;
+}
+
+.intro-icon-3 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    bottom: 27.5%;
+    left: 38.55%;
+    background: url(../img/intro-icon-3.png) -2px 0 no-repeat;
+}
+
+.intro-icon-4 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    bottom: 26.8%;
+    left: 29.85%;
+    background: url(../img/intro-icon-4.png) 0 2px no-repeat;
+}
+
+.intro-icon-5 {
+    position: absolute;
+    width: 45px;
+    height: 50px;
+    bottom: 19%;
+    left: 32.1%;
+    background: url(../img/intro-icon-5.png) -2px 2px no-repeat;
+}
+
+
 @media screen and (max-width: 1366px) {
 
     .intro {
