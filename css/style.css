@@ -138,7 +138,7 @@ input, textarea {
 /*Header styles*/
 
 .header {
-    padding: 11px 0 0 0;
+    padding: 10px 0 0 0;
 }
 
 .header__wrapper {
@@ -189,7 +189,7 @@ input, textarea {
 @media screen and (max-width: 1366px) {
 
     .header {
-        padding: 10px 0 0 0;
+        padding: 8px 0 0 0;
     }
 
     .header__wrapper {
@@ -761,7 +761,7 @@ input, textarea {
         height: 400px;
         top: 95px;
         right: 9%;
-        background-size: 457px;
+        background: url(../img/intro-globe-2.png) center no-repeat;
     }
 
     .globe-location-1 {
@@ -1131,12 +1131,13 @@ input, textarea {
 
     .technology__left {
         width: 494px;
-        top: -322px;
+        top: -319px;
     }
 
     .technology__icons {
-        left: 41px;
-        height: 496px;
+        width: 107%;
+        left: 19px;
+        height: 540px;
     }
 
     .section-title {
@@ -1147,6 +1148,7 @@ input, textarea {
     .technology__subtitle {
         font-size: 38px;
         margin-bottom: 43px;
+        transform: scale(1,1.02);
     }
 }
 
@@ -1283,7 +1285,8 @@ input, textarea {
 
 .solutions__title {
     font-family: Muli, sans-serif;
-    font-size: 46px;
+    font-size: 44px;
+    font-weight: 900;
     line-height: 79px;
     color: #fff;
     max-width: 555px;
@@ -1315,9 +1318,10 @@ input, textarea {
     }
 
     .solutions__title {
-        font-size: 43px;
+        font-size: 41px;
         line-height: 77px;
         margin-bottom: 53px;
+        transform: scale(1,1.02);
     }
 
     .solutions__block {
@@ -1555,6 +1559,7 @@ input, textarea {
     .on-the-go__subtitle {
         font-size: 38px;
         line-height: 53px;
+        transform: scale(1,1.02);
     }
 
     .on-the-go__links {
@@ -2051,6 +2056,7 @@ input, textarea {
 
     .enterprise__title {
         margin-bottom: 29px;
+        transform: scale(1,1.02);
     }
 
     .enterprise__subtitle {
@@ -2299,6 +2305,7 @@ input, textarea {
         font-size: 38px;
         line-height: 48px;
         margin-bottom: 96px;
+        transform: scale(1,1.02);
     }
 
     .extension__blocks {
