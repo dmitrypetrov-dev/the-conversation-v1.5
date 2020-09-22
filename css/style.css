@@ -695,6 +695,37 @@ input, textarea {
 
     .intro {
         padding-top: 119px;
+        background: url(../img/intro-bg.png) 0 5px no-repeat, url(../img/intro-bg-min.png) 0 5px no-repeat;
+        background-size: 100%;
+    }
+
+    .intro::before {
+        height: 710px;
+    }
+
+    .intro-icon-1 {
+        bottom: 31%;
+        left: 58.35%;
+    }
+
+    .intro-icon-2 {
+        bottom: 25.5%;
+        left: 44.15%;
+    }
+
+    .intro-icon-3 {
+        bottom: 31.2%;
+        left: 38.5%;
+    }
+
+    .intro-icon-4 {
+        bottom: 30.5%;
+        left: 29.8%;
+    }
+
+    .intro-icon-5 {
+        bottom: 23.1%;
+        left: 32.05%;
     }
 
     .title-block {
@@ -1066,7 +1097,7 @@ input, textarea {
     }
 
     .technology__right {
-        top: -260px;
+        top: -313px;
     }
 
     .technology__left {
