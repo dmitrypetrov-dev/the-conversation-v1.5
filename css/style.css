@@ -108,7 +108,7 @@ input, textarea {
 
 @media screen and (max-width: 1366px) {
     .container {
-        max-width: 1075px;
+        max-width: 1058px;
     }
 }
 
@@ -193,7 +193,7 @@ input, textarea {
     }
 
     .header__wrapper {
-        padding-right: 19px;
+        padding-right: 2px;
     }
 
     .header-logo {
@@ -703,7 +703,7 @@ input, textarea {
     .intro {
         padding-top: 119px;
         background: url(../img/intro-bg.png) 0 5px no-repeat, url(../img/intro-bg-min.png) 0 5px no-repeat;
-        background-size: 100%;
+        background-size: 101.3%;
     }
 
     .intro::before {
@@ -760,7 +760,7 @@ input, textarea {
         width: 400px;
         height: 400px;
         top: 95px;
-        right: 10.1%;
+        right: 9%;
         background-size: 457px;
     }
 
