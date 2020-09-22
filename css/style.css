@@ -1701,8 +1701,9 @@ input, textarea {
     top: -1px;
     left: -21px;
     border-radius: 10px;
-    background-color: #fff;
     box-shadow: 0 4px 60px rgba(0, 0, 0, 0.15);
+    background: url(../img/news-room-preview.png) center no-repeat #fff;
+    background-size: cover;
 }
 
 .production__right {
