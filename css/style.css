@@ -1073,7 +1073,7 @@ input, textarea {
 
 .technology__icons {
     position: absolute;
-    width: 115%;
+    width: 114.5%;
     height: 610px;
     top: 0;
     left: 18px;
@@ -1109,7 +1109,7 @@ input, textarea {
     line-height: 153%;
     color: #444058;
     margin-bottom: 45px;
-    transform: scale(1,1.02);
+    transform: scale(1, 1.02);
 }
 
 .technology__text {
@@ -1137,11 +1137,7 @@ input, textarea {
 
     .technology__left {
         width: 494px;
-        top: -319px;
-    }
-
-    .technology__icons {
-        left: 19px;
+        top: -322px;
     }
 
     .section-title {
@@ -1275,7 +1271,7 @@ input, textarea {
     max-width: 1440px;
     height: 768px;
     margin: 0 auto 135px auto;
-    background: url(../img/solutions-bg.jpg) center no-repeat;
+    background: url(../img/solutions-bg.jpg) center no-repeat #363349;
     background-size: cover;
     padding: 121px 0 0 151px;
 }
@@ -1294,7 +1290,7 @@ input, textarea {
     color: #fff;
     max-width: 555px;
     margin-bottom: 63px;
-    transform: scale(1,1.02);
+    transform: scale(1, 1.02);
 }
 
 .solutions__number {
@@ -1448,7 +1444,7 @@ input, textarea {
     line-height: 56px;
     color: #444058;
     margin-bottom: 35px;
-    transform: scale(1,1.02);
+    transform: scale(1, 1.02);
 }
 
 .on-the-go__text {
@@ -1963,7 +1959,7 @@ input, textarea {
 
 .enterprise {
     padding: 30px 0 0 0;
-    margin-bottom: 142px;
+    margin-bottom: 395px;
 }
 
 .enterprise__wrapper {
@@ -1990,7 +1986,7 @@ input, textarea {
     line-height: 53px;
     color: #444058;
     margin-bottom: 27px;
-    transform: scale(1,1.02);
+    transform: scale(1, 1.02);
 }
 
 .enterprise__text {
@@ -2187,28 +2183,39 @@ input, textarea {
 
 .extension {
     padding: 30px 0 88px 0;
-    background-color: #fff;
+    position: relative;
+}
+
+.extension::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 1408px;
+    top: -140px;
+    left: 0;
+    background: linear-gradient(180deg, #BEBEBE 0%, #959595 100%);
+    opacity: 0.25;
+    z-index: -50;
 }
 
 .extension__title {
     font-family: Muli, sans-serif;
     font-style: normal;
-    font-weight: 800;
-    font-size: 40px;
-    line-height: 50px;
-    color: #444058;
+    font-size: 50px;
+    line-height: 59px;
+    color: #5C4A74;
     text-align: center;
-    margin: 0 auto 102px auto;
-    max-width: 586px;
-    transform: scale(1,1.02);
+    margin: 0 auto 124px auto;
+    text-shadow: 0 4px 4px rgba(255, 255, 255, 0.4);
+    transform: scale(1, 1.02);
 }
 
 .extension__blocks {
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
+    margin: 0 auto 333px auto;
     max-width: 1108px;
-    padding-right: 14px;
+    padding: 0 6px 0 8px;
 }
 
 .extension__block {
@@ -2223,7 +2230,7 @@ input, textarea {
     width: 100%;
     height: 173px;
     border-radius: 6px 6px 0 0;
-    background: linear-gradient(136.8deg, #9869B5 5.44%, #B973C5 60.82%, #62C7CF 169.03%);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(108.71deg, #4D4752 4.17%, #5F3496 61.89%, #B55BD4 121.85%);
     padding: 28px 0 0 0;
     position: relative;
 }
