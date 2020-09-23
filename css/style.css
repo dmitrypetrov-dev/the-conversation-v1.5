@@ -2008,22 +2008,23 @@ input, textarea {
     font-weight: bold;
     font-size: 20px;
     line-height: 26px;
-    color: #434756;
+    color: #fff;
     text-decoration: none;
     text-align: center;
-    border: 2px solid #444058;
+    background-color: #A97BCF;
+    border: 2px solid #A97BCF;
     border-radius: 30px;
     transition: all .2s linear;
     width: 242px;
     height: 60px;
-
+    box-shadow: 0 0 20px rgba(202, 141, 255, 0.5);
 }
 
 .enterprise-btn:hover,
 .enterprise-btn:focus,
 .enterprise-btn:active {
-    background-color: #444058;
-    color: #fff;
+    background-color: #fff;
+    color: #A97BCF;
 }
 
 .enterprise__right {
