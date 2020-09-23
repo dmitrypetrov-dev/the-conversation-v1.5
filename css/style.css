@@ -2041,6 +2041,11 @@ input, textarea {
 }
 
 @media screen and (max-width: 1366px) {
+
+    .enterprise {
+        margin-bottom: 366px;
+    }
+
     .enterprise__wrapper {
         max-width: 1110px;
     }
@@ -2341,15 +2346,18 @@ input, textarea {
 
 @media screen and (max-width: 1366px) {
 
+    .extension::before {
+        top: -129px;
+    }
+
     .extension__title {
-        font-size: 38px;
-        line-height: 48px;
-        margin-bottom: 96px;
+        font-size: 47px;
+        margin: 0 auto 116px auto;
     }
 
     .extension__blocks {
         max-width: 1051px;
-        padding-right: 13px;
+        margin: 0 auto 311px auto;
     }
 
     .extension__block {
