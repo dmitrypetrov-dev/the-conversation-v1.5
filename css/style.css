@@ -435,6 +435,9 @@ input, textarea {
     z-index: -50;
 }
 
+
+/*globe styles*/
+
 .intro__globe {
     position: absolute;
     width: 494px;
@@ -592,6 +595,8 @@ input, textarea {
     border-right: 0 solid transparent;
     border-bottom: 24px solid rgba(255, 255, 255, 0.5);
 }
+
+/*globe styles end*/
 
 .title-block {
     height: 231px;
