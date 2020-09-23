@@ -2369,6 +2369,21 @@ input, textarea {
         height: 164px;
     }
 
+    .extension__block-header-1::before {
+        background: url(../img/extension__block-header-1.png) -4px 0 no-repeat;
+        background-size: 102%;
+    }
+
+    .extension__block-header-2::before {
+        background: url(../img/extension__block-header-2.png) -3px -1px no-repeat;
+        background-size: 102%;
+    }
+
+    .extension__block-header-3::before {
+        background: url(../img/extension__block-header-3.png) -3px -1px no-repeat;
+        background-size: 102%;
+    }
+
     .extension__block-list {
         margin-bottom: 20px;
     }
