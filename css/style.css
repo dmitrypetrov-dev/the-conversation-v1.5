@@ -1247,9 +1247,6 @@ input, textarea {
 
 @media screen and (max-width: 414px) {
 
-    .technology {
-    }
-
     .technology__left {
         top: -80px;
     }
@@ -1259,10 +1256,11 @@ input, textarea {
 @media screen and (max-width: 375px) {
 
     .technology {
+        height: 600px;
     }
 
     .technology__left {
-        top: -65px;
+        top: -85px;
     }
 
     .technology__subtitle {
