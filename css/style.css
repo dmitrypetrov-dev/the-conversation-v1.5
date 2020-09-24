@@ -1163,7 +1163,7 @@ input, textarea {
 @media screen and (max-width: 1050px) {
 
     .technology {
-        height: 600px;
+        height: 700px;
         margin-bottom: 100px;
     }
 
@@ -1177,7 +1177,7 @@ input, textarea {
     .technology__left {
         position: relative;
         height: 50%;
-        top: -120px;
+        top: -200px;
     }
 
     .technology__right {
@@ -1190,7 +1190,7 @@ input, textarea {
     }
 
     .technology__icons {
-        top: 20px;
+        top: 0;
         left: 0;
     }
 }
