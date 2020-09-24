@@ -1107,6 +1107,7 @@ input, textarea {
     font-weight: 800;
     font-size: 40px;
     line-height: 153%;
+    letter-spacing: -.2px;
     color: #444058;
     margin-bottom: 45px;
     transform: scale(1, 1.02);
@@ -2204,6 +2205,29 @@ input, textarea {
     z-index: -50;
 }
 
+.noise-blocks {
+    position: absolute;
+    width: 100%;
+    height: 413px;
+    top: -140px;
+    left: 0;
+    display: flex;
+}
+
+.noise-block-1 {
+    width: 50%;
+    height: 100%;
+    background: url(../img/noise-left.png) center no-repeat;
+    background-size: cover;
+}
+
+.noise-block-2 {
+    width: 50%;
+    height: 100%;
+    background: url(../img/noise-right.png) center no-repeat;
+    background-size: cover;
+}
+
 .extension__title {
     font-family: Muli, sans-serif;
     font-style: normal;
@@ -2349,6 +2373,10 @@ input, textarea {
 @media screen and (max-width: 1366px) {
 
     .extension::before {
+        top: -129px;
+    }
+
+    .noise-blocks {
         top: -129px;
     }
 
