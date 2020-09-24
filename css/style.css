@@ -1222,7 +1222,8 @@ input, textarea {
     }
 
     .technology__icons {
-        height: 87vw;
+        width: 100%;
+        height: 92vw;
     }
 }
 
