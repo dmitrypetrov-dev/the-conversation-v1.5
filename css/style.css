@@ -1195,12 +1195,6 @@ input, textarea {
     }
 }
 
-@media screen and (max-width: 685px) {
-    .technology__left {
-        top: -170px;
-    }
-}
-
 @media screen and (max-width: 600px) {
 
     .technology__wrapper {
