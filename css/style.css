@@ -1354,11 +1354,51 @@ input, textarea {
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
+
+    .solutions {
+        padding: 112px 0 0 0;
+    }
+
+    .solutions__title {
+        text-align: center;
+        margin: 0 auto 53px auto;
+    }
+
+    .solutions__stats {
+        max-width: 460px;
+        margin: 0 auto;
+    }
 
 }
 
 @media screen and (max-width: 600px) {
+
+    .solutions {
+        padding: 112px 15px 0 15px;
+    }
+
+    .solutions__title {
+        font-size: 36px;
+        line-height: 68px;
+    }
+
+    .solutions__number {
+        font-size: 36px;
+    }
+
+    .solutions__text {
+        font-size: 22px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .solutions__title {
+        font-size: 35px;
+        line-height: 62px;
+    }
 
 }
 
