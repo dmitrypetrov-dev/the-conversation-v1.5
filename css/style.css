@@ -416,7 +416,7 @@ input, textarea {
 
 .intro {
     background: url(../img/intro-bg.png) 0 6px no-repeat, url(../img/intro-bg-min.png) 0 6px no-repeat;
-    background-size: cover;
+    background-size: cover, cover;
     max-width: 1440px;
     height: 1260px;
     margin: 0 auto;
@@ -708,7 +708,7 @@ input, textarea {
     .intro {
         padding-top: 119px;
         background: url(../img/intro-bg.png) 0 5px no-repeat, url(../img/intro-bg-min.png) 0 5px no-repeat;
-        background-size: 101.3%;
+        background-size: 101.3%, 101.3%;
     }
 
     .intro::before {
@@ -837,6 +837,12 @@ input, textarea {
 
 }
 
+@media screen and (max-width: 1365px) {
+    .intro {
+        background-size: cover, cover;
+    }
+}
+
 @media screen and (max-width: 1200px) {
 
     .title-block {
@@ -876,6 +882,10 @@ input, textarea {
 
     .intro__title {
         text-align: center;
+    }
+
+    .intro-icon {
+        display: none;
     }
 
 }
@@ -2189,7 +2199,7 @@ input, textarea {
 /*Extension styles*/
 
 .extension {
-    padding: 30px 0 88px 0;
+    padding: 1px 0 1px 0;
     position: relative;
 }
 
