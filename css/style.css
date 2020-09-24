@@ -1210,10 +1210,6 @@ input, textarea {
     .technology__left {
         width: 100%;
         left: 0;
-        top: -130px;
-    }
-
-    .technology__right {
         top: -170px;
     }
 
