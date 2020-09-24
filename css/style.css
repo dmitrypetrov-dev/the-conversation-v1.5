@@ -1207,6 +1207,11 @@ input, textarea {
         max-width: 100%;
     }
 
+    .technology__left {
+        left: 0;
+        top: -130px;
+    }
+
     .technology__right {
         top: -170px;
     }
