@@ -1210,7 +1210,7 @@ input, textarea {
     .technology__left {
         width: 100%;
         left: 0;
-        top: -150px;
+        top: -175px;
     }
 
     .technology__subtitle {
@@ -1241,6 +1241,14 @@ input, textarea {
 
     .technology__text {
         font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 440px) {
+
+    .technology__left {
+        top: -100px;
     }
 
 }
