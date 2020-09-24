@@ -1224,7 +1224,7 @@ input, textarea {
 
     .technology__icons {
         width: 100%;
-        height: 92vw;
+        height: 97vw;
     }
 }
 
@@ -1237,10 +1237,6 @@ input, textarea {
 
     .technology__right {
         height: 50%;
-    }
-
-    .technology__left {
-        top: -120px;
     }
 
     .technology__subtitle {
