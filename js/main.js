@@ -51,10 +51,14 @@ $(document).ready(function () {
 });
 
 
-$(document).ready(function () {
+$(document).ready(function() {
+    setTimeout(showElements, 1000);
+});
+
+function showElements() {
     $(".container").show();
     $(".intro__globe").show();
-});
+}
 
 // $(document).ready(function () {
 //     $(".intro__title-1").delay(500).fadeIn();
