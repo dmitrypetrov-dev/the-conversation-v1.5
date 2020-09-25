@@ -91,7 +91,7 @@ body {
     font-size: 20px;
     line-height: 175%;
     color: #444058;
-    animation: fadeInAnimation ease 1.2s;
+    animation: fadeInAnimation ease 1.5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     display: none;
