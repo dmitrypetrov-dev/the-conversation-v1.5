@@ -1264,11 +1264,11 @@ input, textarea {
 @media screen and (max-width: 375px) {
 
     .technology {
-        height: 600px;
+        height: 630px;
     }
 
     .technology__left {
-        top: -85px;
+        top: -60px;
     }
 
     .technology__subtitle {
@@ -1396,13 +1396,55 @@ input, textarea {
 @media screen and (max-width: 480px) {
 
     .solutions__title {
-        font-size: 35px;
-        line-height: 62px;
+        font-size: 34px;
+        line-height: 58px;
+    }
+
+    .solutions__stats {
+        max-width: 380px;
+    }
+
+    .solutions__number {
+        font-size: 33px;
+    }
+
+    .solutions__text {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 414px) {
+
+    .solutions__title {
+        font-size: 30px;
+        line-height: 55px;
     }
 
 }
 
 @media screen and (max-width: 375px) {
+
+    .solutions {
+        padding: 100px 15px 0 15px;
+    }
+
+    .solutions__title {
+        font-size: 26px;
+        line-height: 49px;
+    }
+
+    .solutions__stats {
+        max-width: 330px;
+    }
+
+    .solutions__number {
+        font-size: 32px;
+    }
+
+    .solutions__text {
+        font-size: 17px;
+    }
 
 }
 
