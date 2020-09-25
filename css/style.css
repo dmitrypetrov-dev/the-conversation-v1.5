@@ -1079,6 +1079,7 @@ input, textarea {
     height: 610px;
     top: 0;
     left: 18px;
+    box-shadow: 0 4px 60px rgba(0, 0, 0, 0.25);
 }
 
 .technology__right {
@@ -1178,6 +1179,7 @@ input, textarea {
         position: relative;
         height: 50%;
         top: -230px;
+        left: 0;
     }
 
     .technology__right {
@@ -1190,8 +1192,10 @@ input, textarea {
     }
 
     .technology__icons {
+        height: 575px;
         top: 0;
-        left: 0;
+        left: 50%;
+        transform: translateX(-50%);
     }
 }
 
