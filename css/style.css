@@ -98,6 +98,7 @@ img {
 .container {
     max-width: 1134px;
     margin: 0 auto;
+    display: none;
 }
 
 input, textarea {
@@ -139,6 +140,7 @@ input, textarea {
 
 .header {
     padding: 10px 0 0 0;
+    height: 77px;
 }
 
 .header__wrapper {
@@ -1178,7 +1180,7 @@ input, textarea {
         position: relative;
         height: 50%;
         top: -230px;
-        left: 0;
+        left: 10px;
     }
 
     .technology__right {
@@ -1212,7 +1214,7 @@ input, textarea {
 
     .technology__left {
         width: 100%;
-        left: 0;
+        left: 5px;
         top: -175px;
     }
 
@@ -1964,7 +1966,8 @@ input, textarea {
     }
 
     .production::before {
-        top: -2%;
+        height: 1030px;
+        top: -13%;
     }
 
     .production__wrapper {
@@ -2032,6 +2035,10 @@ input, textarea {
 
 @media screen and (max-width: 480px) {
 
+    .production::before {
+        top: -16%;
+    }
+
     .production__subtitle {
         font-size: 35px;
     }
@@ -2045,7 +2052,8 @@ input, textarea {
 @media screen and (max-width: 375px) {
 
     .production::before {
-        top: -7%;
+        top: -15%;
+        height: 1000px;
     }
 
     .production__subtitle {
