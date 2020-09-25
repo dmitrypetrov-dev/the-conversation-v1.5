@@ -149,6 +149,10 @@ input, textarea {
     padding-right: 19px;
 }
 
+.header-logo img {
+    display: none;
+}
+
 .site-navigation {
     padding-top: 8px;
 }
