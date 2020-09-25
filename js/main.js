@@ -52,22 +52,24 @@ $(document).ready(function () {
 
 
 $(document).ready(function() {
-    setTimeout(showElements, 1200);
-    setTimeout(showLogo, 1300);
-    setTimeout(showGlobe, 1400);
+    setTimeout(showAll, 1200);
 });
 
-function showElements() {
-    $(".container").show();
+function showAll() {
+    $("body").show();
 }
 
-function showLogo() {
-    $(".header-logo img").show();
-}
-
-function showGlobe() {
-    $(".intro__globe").show();
-}
+// function showElements() {
+//     $(".container").show();
+// }
+//
+// function showLogo() {
+//     $(".header-logo img").show();
+// }
+//
+// function showGlobe() {
+//     $(".intro__globe").show();
+// }
 
 
 // $(document).ready(function () {
