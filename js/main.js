@@ -54,15 +54,19 @@ $(document).ready(function () {
 $(document).ready(function() {
     setTimeout(showElements, 1200);
     setTimeout(showLogo, 1300);
+    setTimeout(showGlobe, 1300);
 });
 
 function showElements() {
     $(".container").show();
-    $(".intro__globe").show();
 }
 
 function showLogo() {
     $(".header-logo img").show();
+}
+
+function showGlobe() {
+    $(".intro__globe").show();
 }
 
 
