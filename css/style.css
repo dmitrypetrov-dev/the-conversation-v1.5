@@ -720,7 +720,7 @@ input, textarea {
 
     .intro {
         padding-top: 119px;
-        background: url(../img/intro-bg.png) 0 5px no-repeat, url(../img/intro-bg-min.png) 0 5px no-repeat;
+        background: url(../img/intro-bg.png) 0 5px no-repeat, url(../img/intro-bg-min.jpg) 0 5px no-repeat;
         background-size: 101.3%, 101.3%;
     }
 
