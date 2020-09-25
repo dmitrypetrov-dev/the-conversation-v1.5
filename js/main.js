@@ -52,7 +52,7 @@ $(document).ready(function () {
 
 
 $(document).ready(function() {
-    setTimeout(showAll, 1400);
+    setTimeout(showAll, 1500);
 });
 
 function showAll() {
