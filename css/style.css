@@ -429,7 +429,7 @@ input, textarea {
 /*}*/
 
 .intro {
-    background: url(../img/intro-bg.png) 0 6px no-repeat, url(../img/intro-bg-min.png) 0 6px no-repeat;
+    background: url(../img/intro-bg.png) 0 6px no-repeat, url(../img/intro-bg-min.jpg) 0 6px no-repeat;
     background-size: cover, cover;
     max-width: 1440px;
     height: 1260px;
