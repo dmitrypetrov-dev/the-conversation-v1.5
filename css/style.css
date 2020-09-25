@@ -91,6 +91,9 @@ body {
     font-size: 20px;
     line-height: 175%;
     color: #444058;
+}
+
+main, footer {
     animation: fadeInAnimation ease 1.5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
