@@ -1961,7 +1961,7 @@ input, textarea {
     }
 
     .production::before {
-        top: 30%;
+        top: -2%;
     }
 
     .production__wrapper {
@@ -2040,6 +2040,10 @@ input, textarea {
 }
 
 @media screen and (max-width: 375px) {
+
+    .production::before {
+        top: -7%;
+    }
 
     .production__subtitle {
         font-size: 31px;
@@ -2201,9 +2205,6 @@ input, textarea {
 }
 
 @media screen and (max-width: 1050px) {
-    .enterprise {
-        margin-bottom: 150px;
-    }
 
     .enterprise__wrapper {
         flex-direction: column;
@@ -2233,6 +2234,11 @@ input, textarea {
 }
 
 @media screen and (max-width: 600px) {
+
+    .enterprise {
+        margin-bottom: 300px;
+    }
+
     .enterprise__left {
         width: 100%;
     }
@@ -2254,7 +2260,7 @@ input, textarea {
 @media screen and (max-width: 480px) {
 
     .enterprise {
-        margin-bottom: 60px;
+        margin-bottom: 200px;
     }
 
     .enterprise__subtitle {
@@ -2270,7 +2276,7 @@ input, textarea {
 @media screen and (max-width: 375px) {
 
     .enterprise {
-        margin-bottom: 0;
+        margin-bottom: 100px;
     }
 
     .enterprise__subtitle {
@@ -2551,6 +2557,10 @@ input, textarea {
 }
 
 @media screen and (max-width: 700px) {
+
+    .extension::before {
+        height: 106%;
+    }
 
     .extension__blocks {
         flex-direction: column;
