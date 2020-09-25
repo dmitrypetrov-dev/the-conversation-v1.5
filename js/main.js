@@ -52,6 +52,7 @@ $(document).ready(function () {
 
 
 $(document).ready(function () {
+    $(".container").show();
     $(".intro__globe").show();
 });
 
