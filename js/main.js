@@ -56,7 +56,7 @@ $(document).ready(function() {
 });
 
 function showAll() {
-    $("body").show();
+    $("main, footer").show();
 }
 
 // function showElements() {
