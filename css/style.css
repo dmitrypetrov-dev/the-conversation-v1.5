@@ -75,15 +75,6 @@ p, h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
-@keyframes fadeInAnimation {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
 body {
     font-family: Muli, sans-serif;
     font-style: normal;
@@ -102,8 +93,6 @@ img {
     max-width: 1920px;
     margin: 0 auto;
     overflow: hidden;
-    /*Timing on Hero fade in:*/
-
     visibility: hidden;
 }
 
