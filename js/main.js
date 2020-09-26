@@ -56,20 +56,9 @@ $(document).ready(function() {
 });
 
 function showAll() {
-    $("body").show();
+    $(".wrapper").css("visibility", "visible").hide().delay(1).fadeIn(1400, "linear");
+    $(".intro__globe").show();
 }
-
-// function showElements() {
-//     $(".container").show();
-// }
-//
-// function showLogo() {
-//     $(".header-logo img").show();
-// }
-//
-// function showGlobe() {
-//     $(".intro__globe").show();
-// }
 
 
 // $(document).ready(function () {
