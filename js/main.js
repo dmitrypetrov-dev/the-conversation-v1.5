@@ -72,26 +72,32 @@ function showAll() {
 
 // lottie delay
 
-const technologyLottie = document.querySelector(".technology__lottie");
-const onthegoLottie = document.querySelector(".on-the-go__lottie");
-const productionLottie = document.querySelector(".production__lottie");
+var technologyLottie = document.querySelector(".technology__lottie");
+var onthegoLottie = document.querySelector(".on-the-go__lottie");
+var productionLottie = document.querySelector(".production__lottie");
 
 $(document).ready(function () {
 
-    onthegoLottie.addEventListener('freeze', function () {
-        console.log("on-the-go__lottie freezed");
-    });
+    var wow = new WOW(
+        {
+            callback: lottiePlay
+        }
+    );
+    wow.init();
 
-    setTimeout(function () {
-        technologyLottie.play();
-    }, 7000);
-    setTimeout(function () {
-        onthegoLottie.play();
-    }, 6000);
-    setTimeout(function () {
-        productionLottie.play();
-    }, 5800);
+    function lottiePlay(e) {
+        if (e.classList.contains("technology__right")) {
+            setTimeout(function () { technologyLottie.play();}, 7000);
+        } else if (e.classList.contains("on-the-go__right")) {
+            setTimeout(function () { onthegoLottie.play();}, 6000);
+        } else if (e.classList.contains("production__right")) {
+            setTimeout(function () { productionLottie.play();}, 5800);
+        }
+    }
 });
+
+
+
 
 
 
