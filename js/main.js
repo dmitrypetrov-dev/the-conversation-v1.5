@@ -86,11 +86,11 @@ $(document).ready(function () {
 
     function lottiePlay(e) {
         if (e.classList.contains("technology__right")) {
-            setTimeout(function () { technologyLottie.play();}, 7000);
+            setTimeout(function () { technologyLottie.play();}, 4000);
         } else if (e.classList.contains("on-the-go__right")) {
-            setTimeout(function () { onthegoLottie.play();}, 6000);
+            setTimeout(function () { onthegoLottie.play();}, 3000);
         } else if (e.classList.contains("production__right")) {
-            setTimeout(function () { productionLottie.play();}, 5800);
+            setTimeout(function () { productionLottie.play();}, 2800);
         }
     }
 });
