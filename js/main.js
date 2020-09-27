@@ -72,7 +72,7 @@ function showAll() {
 
 // lottie delay
 
-const player = document.querySelector("technology__lottie");
+const player = document.querySelector(".technology__lottie");
 
 $(document).ready(function() {
     setTimeout(function(){ player.play(); }, 2000);
