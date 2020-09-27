@@ -84,11 +84,15 @@ $(document).ready(function () {
     );
     wow.init();
 
+    var animation = lottie.loadAnimation({
+        initialSegment: [277, 457]
+    });
+
     function lottiePlay(e) {
         if (e.classList.contains("technology__right")) {
             setTimeout(function () { technologyLottie.play();}, 3100);
         } else if (e.classList.contains("on-the-go__right")) {
-            setTimeout(function () { onthegoLottie.play().seek(277);}, 2350);
+            setTimeout(function () { onthegoLottie.play();}, 2350);
         } else if (e.classList.contains("production__right")) {
             setTimeout(function () { productionLottie.play();}, 2200);
         }
