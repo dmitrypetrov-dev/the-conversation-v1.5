@@ -75,7 +75,7 @@ function showAll() {
 const player = document.querySelector(".technology__lottie");
 
 $(document).ready(function() {
-    setTimeout(function(){ player.play(); }, 2000);
+    setTimeout(function(){ player.play(); }, 7000);
 });
 
 
