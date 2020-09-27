@@ -51,7 +51,7 @@ $(document).ready(function () {
 });
 
 
-$(document).ready(function() {
+$(document).ready(function () {
     setTimeout(showAll, 1500);
 });
 
@@ -76,10 +76,21 @@ const technologyLottie = document.querySelector(".technology__lottie");
 const onthegoLottie = document.querySelector(".on-the-go__lottie");
 const productionLottie = document.querySelector(".production__lottie");
 
-$(document).ready(function() {
-    setTimeout(function(){ technologyLottie.play(); }, 7000);
-    setTimeout(function(){ onthegoLottie.play(); }, 6000);
-    setTimeout(function(){ productionLottie.play(); }, 5800);
+$(document).ready(function () {
+
+    onthegoLottie.addEventListener('freeze', function () {
+        console.log("on-the-go__lottie freezed");
+    });
+
+    setTimeout(function () {
+        technologyLottie.play();
+    }, 7000);
+    setTimeout(function () {
+        onthegoLottie.play();
+    }, 6000);
+    setTimeout(function () {
+        productionLottie.play();
+    }, 5800);
 });
 
 
