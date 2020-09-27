@@ -77,7 +77,6 @@ var onthegoLottie = document.querySelector(".on-the-go__lottie");
 var productionLottie = document.querySelector(".production__lottie");
 
 $(document).ready(function () {
-
     var wow = new WOW(
         {
             callback: lottiePlay
