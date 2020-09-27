@@ -72,10 +72,14 @@ function showAll() {
 
 // lottie delay
 
-const player = document.querySelector(".technology__lottie");
+const technologyLottie = document.querySelector(".technology__lottie");
+const onthegoLottie = document.querySelector(".on-the-go__lottie");
+const productionLottie = document.querySelector(".production__lottie");
 
 $(document).ready(function() {
-    setTimeout(function(){ player.play(); }, 7000);
+    setTimeout(function(){ technologyLottie.play(); }, 7000);
+    setTimeout(function(){ onthegoLottie.play(); }, 6000);
+    setTimeout(function(){ productionLottie.play(); }, 5800);
 });
 
 
