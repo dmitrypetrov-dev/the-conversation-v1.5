@@ -1463,16 +1463,26 @@ input, textarea {
     position: relative;
 }
 
-.on-the-go::before {
+.on-the-go__netting {
     position: absolute;
-    content: "";
-    width: 43.93%;
+    width: 100%;
+    max-width: 1440px;
     height: 117.42%;
     top: -91px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -50;
+}
+
+.on-the-go__netting::before {
+    position: absolute;
+    content: "";
+    width: 56%;
+    height: 100%;
+    top: 0;
     right: 0;
     background: url(../img/svg/on-the-go-bg.svg) no-repeat;
     background-position: 96% 0;
-    z-index: -50;
 }
 
 .on-the-go__wrapper {
@@ -1646,7 +1656,7 @@ input, textarea {
         max-width: 1102px;
     }
 
-    .on-the-go::before {
+    .on-the-go__netting {
         top: -110px;
     }
 
@@ -1703,7 +1713,7 @@ input, textarea {
         margin-bottom: 170px;
     }
 
-    .on-the-go::before {
+    .on-the-go__netting {
         top: 47%;
         height: 60%;
     }
