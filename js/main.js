@@ -87,7 +87,7 @@ $(document).ready(function () {
         if (e.classList.contains("technology__right")) {
             setTimeout(function () {
                 technologyLottie.play();
-            }, 3100);
+            }, 1);
         } else if (e.classList.contains("on-the-go__right")) {
             setTimeout(function () {
                 onthegoLottie.play();
