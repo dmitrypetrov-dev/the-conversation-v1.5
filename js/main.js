@@ -63,8 +63,8 @@ function showAll() {
 
 $(document).ready(function () {
     $(".intro__title-1").hide().delay(2800).fadeIn();
-    $(".intro__title-2").hide().delay(2800).fadeIn();
-    $(".intro__title-3").hide().delay(2800).fadeIn();
+    $(".intro__title-2").hide().delay(3000).fadeIn();
+    $(".intro__title-3").hide().delay(3200).fadeIn();
     $(".intro__subtitle").hide().delay(5000).fadeIn();
     $(".intro-btn").hide().delay(5000).fadeIn();
 });
