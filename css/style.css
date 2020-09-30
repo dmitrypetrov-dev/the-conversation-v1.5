@@ -489,7 +489,6 @@ input, textarea {
     top: 70px;
     right: 7.65%;
     background: url(../img/intro-globe.png) center no-repeat;
-    display: none;
 }
 
 .globe-location-1 {
