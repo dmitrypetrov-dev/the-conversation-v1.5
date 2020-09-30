@@ -57,7 +57,6 @@ $(document).ready(function () {
 
 function showAll() {
     $(".preloader").css("opacity", "0");
-    $(".intro__globe").show();
 }
 
 
