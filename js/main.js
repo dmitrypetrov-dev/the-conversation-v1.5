@@ -56,7 +56,7 @@ $(document).ready(function () {
 });
 
 function showAll() {
-    $(".wrapper").css("visibility", "visible").hide().delay(1).fadeIn(1400, "linear");
+    $(".preloader").css("opacity", "0");
     $(".intro__globe").show();
 }
 
