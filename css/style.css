@@ -331,6 +331,35 @@ input, textarea {
 
 /*Intro styles*/
 
+@-webkit-keyframes slideInLeftTopHero {
+    0% {
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible
+    }
+    to {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0)
+    }
+}
+
+@keyframes slideInLeftTopHero {
+    0% {
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible
+    }
+    to {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0)
+    }
+}
+
+.animate__slideInLeftTopHero {
+    -webkit-animation-name: slideInLeftTopHero;
+    animation-name: slideInLeftTopHero
+}
+
 @-webkit-keyframes fadeIn {
     0% {
         opacity: 0
