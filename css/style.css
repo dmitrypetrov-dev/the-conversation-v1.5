@@ -2295,6 +2295,10 @@ input, textarea {
 
 @media screen and (max-width: 1050px) {
 
+    .enterprise::before {
+        height: 1176px;
+    }
+
     .enterprise__wrapper {
         flex-direction: column;
         align-items: center;
@@ -2322,7 +2326,26 @@ input, textarea {
     }
 }
 
+@media screen and (max-width: 933px) {
+
+    .enterprise::before {
+        height: 1227px;
+    }
+}
+
+@media screen and (max-width: 812px) {
+
+    .enterprise::before {
+        height: 1259px;
+    }
+}
+
+
 @media screen and (max-width: 600px) {
+
+    .enterprise::before {
+        height: 1212px;
+    }
 
     .enterprise {
         margin-bottom: 300px;
@@ -2346,10 +2369,21 @@ input, textarea {
     }
 }
 
+@media screen and (max-width: 529px) {
+
+    .enterprise::before {
+        height: 1263px;
+    }
+}
+
 @media screen and (max-width: 480px) {
 
     .enterprise {
         margin-bottom: 200px;
+    }
+
+    .enterprise::before {
+        height: 1153px;
     }
 
     .enterprise__subtitle {
@@ -2362,10 +2396,21 @@ input, textarea {
 
 }
 
+@media screen and (max-width: 433px) {
+
+    .enterprise::before {
+        height: 1184px;
+    }
+}
+
 @media screen and (max-width: 375px) {
 
     .enterprise {
         margin-bottom: 100px;
+    }
+
+    .enterprise::before {
+        height: 1066px;
     }
 
     .enterprise__subtitle {
